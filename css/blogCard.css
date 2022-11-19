@@ -1,0 +1,45 @@
+.blog-article {
+    border-radius: 15px;
+    margin-top: 3rem;
+    overflow: hidden;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+      rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  }
+  .blog-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+    filter: brightness(0.8);
+    transition: transform 0.3 ease;
+  }
+  
+  .blog-image:hover {
+    transform: scale(1.1);
+  }
+  
+  .blog-header {
+    position: relative;
+    overflow: hidden;
+  }
+  .blog-date {
+    position: absolute;
+    bottom: .9rem;
+    left: 1.2rem;
+    line-height: 3.5rem;
+    font-family: var(--op-title-font);
+    font-weight: bolder;
+    color: rgba(255, 255, 255, 0.7);
+  }
+  .blog-day{
+      font-size: 6rem;
+  
+  }
+  .blog-month{
+      font-size: 3rem;
+  }
+  .blog-article:nth-child(odd)>.blog-row{
+      flex-direction: row-reverse;
+  
+  }
+  
