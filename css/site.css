@@ -319,3 +319,11 @@ h6,
   -webkit-line-clamp: 3;
   overflow: hidden;
 }
+
+div.c {
+  text-indent: 8%;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
